@@ -1,5 +1,7 @@
 import React from "react";
 import tailwind from "../assets/images/tailwind.webp";
+import bootstrap from "../assets/images/Bootstrap+2.jpg";
+import photoshop from "../assets/images/photoshop.webp";
 import { HeadingCommon } from "../pages";
 const Skill = () => {
   const skill = [
@@ -54,12 +56,28 @@ const Skill = () => {
             ))}
             {/* ........................................... */}
             <div className="border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl ">
-              <div style={{ background: `conic-gradient(rgb(8,145,170) 60%, #ddd 60%)` }} className="w-32 h-32 flex items-center justify-center rounded-full">
+              <div style={{ background: `conic-gradient(rgb(8,145,170) 50%, #ddd 60%)` }} className="w-32 h-32 flex items-center justify-center rounded-full">
                 <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
                   <img src={tailwind} alt="imgage not found" className="max-w-[60%]" />
                 </div>
               </div>
               <p className="text-xl mt-3">TAILWIND</p>
+            </div>
+            <div className="border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl ">
+              <div style={{ background: `conic-gradient(rgb(8,145,170) 60%, #ddd 60%)` }} className="w-32 h-32 flex items-center justify-center rounded-full">
+                <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
+                  <img src={bootstrap} alt="imgage not found" className="max-w-[60%]" />
+                </div>
+              </div>
+              <p className="text-xl mt-3">BOOTSTRAP</p>
+            </div>
+            <div className="border-2 group border-cyan-600 relative min-w-[10rem] max-w-[16rem] bg-gray-900 p-10 rounded-xl ">
+              <div style={{ background: `conic-gradient(rgb(8,145,170) 70%, #ddd 60%)` }} className="w-32 h-32 flex items-center justify-center rounded-full">
+                <div className="text-6xl w-28 h-28 bg-gray-900 rounded-full flex items-center justify-center group-hover:text-cyan-600">
+                  <img src={photoshop} alt="imgage not found" className="max-w-[60%]" />
+                </div>
+              </div>
+              <p className="text-xl mt-3">PHOTOSHOP</p>
             </div>
           </div>
         </div>

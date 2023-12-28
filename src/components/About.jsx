@@ -1,5 +1,5 @@
 import React from "react";
-import aboutImg from "../assets/images/SABIR4.jpg";
+import aboutImg from "../assets/images/Screenshot 2023-12-22 162602.png";
 import Resume from "../assets/Resume.pdf";
 import { HeadingCommon } from "../pages";
 const About = () => {

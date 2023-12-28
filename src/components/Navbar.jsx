@@ -23,7 +23,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           <div className="mx-7">
             <h4 className="text-4xl uppercase font-bold">
-              MD<span className="text-cyan-600">SABI</span>R
+              MD <span className="text-cyan-600">SAB</span>I<span className="text-cyan-600">R</span>
             </h4>
           </div>
           <div className={`${stickey ? "md:bg-white/0 bg-white" : "bg-white"} text-gray-900 md:block hidden px-7 py-2 font-medium rounded-bl-full `}>

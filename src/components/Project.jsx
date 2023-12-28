@@ -4,8 +4,8 @@ import movie from "../assets/images/movie.avif";
 import stock from "../assets/images/stock.avif";
 import weather from "../assets/images/weathers.png";
 import watch from "../assets/images/watch.avif";
-import cack from "../assets/images/cack.jpg";
-import calculater from "../assets/images/calculater.avif";
+import food from "../assets/images/food.webp";
+import calculater from "../assets/images/calculator.png";
 import countries from "../assets/images/countries.jpg";
 import images from "../assets/images/images.avif";
 import ticTac from "../assets/images/tictac.jpg";
@@ -32,7 +32,7 @@ const Project = () => {
             {/* github={"https://github.com/imd511248/upstox-app"} */}
             <Pages ancorPath={"https://tic-tac-toe-gameimd.netlify.app"}  img={ticTac} name={"Tic Tac Toe"} />
             {/* github={"https://github.com/imd511248/tictactoe"} */}
-            <Pages ancorPath={"https://"}  img={cack} name={"Cake App"} />
+            <Pages ancorPath={"https://spontaneous-mandazi-2839e1.netlify.app/"}  img={food} name={"Food App"} />
             {/* github={"https://github.com/imd511248/upstox-app"} */}
             <Pages ancorPath={"https://animated-hamster-82bc16.netlify.app/"}  img={calculater} name={"Calculater"} />
             {/* github={"https://github.com/imd511248/-media-Q1"} */}
