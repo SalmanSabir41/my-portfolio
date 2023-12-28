@@ -1,5 +1,5 @@
 import React from "react";
-import myImg from "../assets/images/SABIR3.jpg";
+import myImg from "../assets/images/Instagram.jpg";
 const Hero = () => {
   const social_media = ["logo-instagram", "logo-facebook", "logo-linkedin", "logo-twitter"];
   return (
