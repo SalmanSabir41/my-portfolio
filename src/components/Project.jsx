@@ -6,7 +6,6 @@ import weather from "../assets/images/weathers.png";
 import watch from "../assets/images/watch.avif";
 import food from "../assets/images/food.webp";
 import calculater from "../assets/images/calculator.png";
-import countries from "../assets/images/countries.jpg";
 import images from "../assets/images/images.avif";
 import ticTac from "../assets/images/tictac.jpg";
 import shoping from "../assets/images/shoping.jpg";
